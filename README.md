@@ -43,6 +43,17 @@
 - **建模**: scikit-learn（Logistic Regression, Random Forest）
 
 ## 项目结构 | Project Structure
+```
+hr-attrition-analysis/
+    ├── data/                           # 数据集
+    │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
+    ├── notebooks/                      # 分析笔记本
+    │   ├── 01_data_exploration.ipynb   # 数据探索与可视化
+    │   └── 02_feature_engineering.ipynb # 特征工程与建模
+    ├── .gitignore
+    ├── LICENSE
+    └── README.md
+```
 ## 运行方式 | How to Run
 ```bash
 git clone https://github.com/euell777/hr-attrition-analysis.git
